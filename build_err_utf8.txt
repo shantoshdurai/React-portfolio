@@ -1,0 +1,130 @@
+﻿
+> react-protfolio@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+node.exe : Error: "." is not 
+exported under the conditions 
+["node","require"] from 
+package C:\work\React-protfoli
+o\node_modules\tw-animate-css 
+(see exports field in C:\work\
+React-protfolio\node_modules\t
+w-animate-css\package.json)
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" "C:\Use
+rs\shant\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (Error: ".  
+  " is n...s\package.json):   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+    at C:\work\React-protfolio
+\node_modules\enhanced-resolve
+\lib\ExportsFieldPlugin.js:123
+:7
+    at Hook.eval [as 
+callAsync] (eval at create (C:
+\work\React-protfolio\node_mod
+ules\tapable\lib\HookCodeFacto
+ry.js:31:10), 
+<anonymous>:22:1)
+    at 
+Hook.CALL_ASYNC_DELEGATE [as 
+_callAsync] (C:\work\React-pro
+tfolio\node_modules\tapable\li
+b\Hook.js:21:14)
+    at Resolver.doResolve (C:\
+work\React-protfolio\node_modu
+les\enhanced-resolve\lib\Resol
+ver.js:736:16)
+    at C:\work\React-protfolio
+\node_modules\enhanced-resolve
+\lib\DescriptionFilePlugin.js:
+80:17
+    at C:\work\React-protfolio
+\node_modules\enhanced-resolve
+\lib\DescriptionFileUtils.js:1
+61:24
+    at C:\work\React-protfolio
+\node_modules\enhanced-resolve
+\lib\forEachBail.js:39:13
+    at onJson (C:\work\React-p
+rotfolio\node_modules\enhanced
+-resolve\lib\DescriptionFileUt
+ils.js:96:6)
+    at C:\work\React-protfolio
+\node_modules\enhanced-resolve
+\lib\DescriptionFileUtils.js:1
+23:7
+    at SyncAsyncFileSystemDeco
+rator.readJson (C:\work\React-
+protfolio\node_modules\enhance
+d-resolve\lib\SyncAsyncFileSys
+temDecorator.js:204:6)
+[32mΓ£ô[39m 15 modules transformed.
+[31mΓ£ù[39m Build failed in 
+1.20s
+[31merror during build:
+[31m[vite:css] [postcss] 
+tailwindcss: C:/work/React-pro
+tfolio/src/index.css:1:1: "." 
+is not exported under the 
+conditions ["node","require"] 
+from package C:\work\React-pro
+tfolio\node_modules\tw-animate
+-css (see exports field in C:\
+work\React-protfolio\node_modu
+les\tw-animate-css\package.jso
+n)[31m
+file: [36mC:/work/React-protf
+olio/src/index.css:1:0[31m
+    at Input.error (C:\work\Re
+act-protfolio\node_modules\pos
+tcss\lib\input.js:135:16)
+    at Root.error (C:\work\Rea
+ct-protfolio\node_modules\post
+css\lib\node.js:146:32)
+    at Object.Once (C:\work\Re
+act-protfolio\node_modules\@ta
+ilwindcss\postcss\dist\index.j
+s:10:6913)
+    at async 
+LazyResult.runAsync (C:\work\R
+eact-protfolio\node_modules\po
+stcss\lib\lazy-result.js:293:1
+1)
+    at async runPostCSS (file:
+///C:/work/React-protfolio/nod
+e_modules/vite/dist/node/chunk
+s/config.js:30145:19)
+    at async compilePostCSS (f
+ile:///C:/work/React-protfolio
+/node_modules/vite/dist/node/c
+hunks/config.js:30129:6)
+    at async compileCSS (file:
+///C:/work/React-protfolio/nod
+e_modules/vite/dist/node/chunk
+s/config.js:30059:26)
+    at async Object.handler (f
+ile:///C:/work/React-protfolio
+/node_modules/vite/dist/node/c
+hunks/config.js:29592:54)
+    at async transform (file:/
+//C:/work/React-protfolio/node
+_modules/rollup/dist/es/shared
+/node-entry.js:21269:16)
+    at async 
+ModuleLoader.addModuleSource (
+file:///C:/work/React-protfoli
+o/node_modules/rollup/dist/es/
+shared/node-entry.js:21497:36)
+[39m
