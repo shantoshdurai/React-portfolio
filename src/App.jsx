@@ -39,7 +39,7 @@ function App() {
 
   return (
     <ClickSpark sparkColor='#121212' sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
-      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1, pointerEvents: 'none' }}>
+      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 50, pointerEvents: 'none' }}>
         <Ribbons 
           colors={['#f9a8d4', '#fde047', '#93c5fd', '#86efac', '#c084fc']} 
           baseThickness={15} 
